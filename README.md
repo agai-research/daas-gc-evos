@@ -96,21 +96,25 @@ approach outperforms baselines in terms of:
 | **DaaS-KGE** | Knowledge graph embedding baseline |
 | **DaaS-SG** | Single-graph (full network) baseline |
 
-## Future Work
-
-- Swarm-based and multi-visit delivery scenarios.
-- Dynamic station contention and real-time congestion handling.
-- Uncertainty-aware composition using probabilistic graph clustering.
-- Parallel processing using distributed frameworks (e.g., Apache Spark, GraphX).
-
-## Implementation
-
-The implementation is available on 
-[Google Colab](https://drive.google.com/drive/folders/1f1-_BIOKb-DZnIa3Ng4EpyQK7XeMz0Fr?usp=sharing), 
-using **NetworkX** and **Scikit-learn** for graph clustering and hyper-graph 
-construction.
 
 ## Citation
 
-If you use this work, please cite the corresponding paper (details to be added 
-upon publication).
+If you use this work, please cite the corresponding paper (details to be updated 
+upon final publication).
+
+@article{elmannai2025partitioning,
+  author    = {Elmannai, Hela and Mezni, Haithem and Algarni, Abeer D.},
+  title     = {Partitioning the Sky: A Region-based Graph Clustering Approach 
+               for the Composition of {UAV} Delivery Services},
+  journal   = {Evolving Systems},
+  year      = {2026},
+  publisher = {Springer},
+  issn      = {1868-6478},
+  doi       = {10.1007/s12530-025-XXXXX-X},
+  url       = {https://link.springer.com/journal/12530},
+  keywords  = {UAV services, Drone-as-a-Service, DaaS composition, 
+               graph partitioning, graph clustering, A* algorithm, 
+               path search, skyway network}
+}
+
+
